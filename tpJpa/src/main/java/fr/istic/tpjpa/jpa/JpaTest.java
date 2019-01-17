@@ -49,7 +49,7 @@ public class JpaTest {
 
 
 		// TODO run request
-
+		manager.close();
 		System.out.println(".. done");
 	}
 
